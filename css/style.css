@@ -400,6 +400,7 @@ body {
     background-size: cover;
     background-position: center;
     margin-bottom: 3.125rem;
+    min-height: 100vh;
   }
 }
 
