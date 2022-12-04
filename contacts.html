@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>blog</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__container">
+            <div class="header__burger">
+               <span></span>
+               <a class="header__logo-mob" href="#"> <img src="img/header/logo.svg" alt="logo"></a>
+            </div>
+            <nav class="header__menu menu">
+               <a class="header__logo" href="#"> <img src="img/header/logo.svg" alt="logo"></a>
+               <ul class="menu__list">
+                  <li class="menu__item"> <a class="menu__link" href="index.html">home</a> </li>
+                  <li class="menu__item"> <a class="menu__link" href="menu.html">menu</a> </li>
+                  <li class="menu__item"> <a class="menu__link" href="abouts.html">About us</a> </li>
+                  <li class="menu__item"> <a class="menu__link" href="story.html">Our Story</a> </li>
+                  <li class="menu__item"> <a class="menu__link" href="blog.html">Blog</a> </li>
+                  <li class="menu__item"> <a class="menu__link" href="contacts.html">Contact</a> </li>
+               </ul>
+            </nav>
+            <a href="#" class="header__project">Clone Project <span></span></a>
+         </div>
+      </header>
+      <main class="page page-contacts">
+         <section class="contacts">
+            <div class="contacts__container">
+               <div class="contacts__items">
+                  <div class="contacts__body">
+                     <div class="contacts__header">
+                        <h2 class="contacts__title">Have a Question ?
+                           Get in Touch with us 👋</h2>
+                        <p> Fill up the Form and ou team will get back to within 24 hrs</p>
+                     </div>
+                     <form action="" class="contacts__form">
+                        <div class="form__body">
+                           <input type="text" class="form-input" required placeholder="Name">
+                           <input type="email" class="form-input" required placeholder="Email">
+                           <textarea class="form-textarea" placeholder="Messege"></textarea>
+                           <button type="submit" class="form-button">Send Messege <span></span> </button>
+                        </div>
+                     </form>
+                  </div>
+                  <div class="contacts__images">
+                     <div class="contacts__image">
+                        <img src="img/contacts/01.jpg" alt="image">
+                     </div>
+                     <div class="contacts__image">
+                        <img src="img/contacts/02.jpg" alt="image">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="location">
+            <div class="location__container">
+               <div class="location__items">
+                  <div class="location__info info-location">
+                     <div class="info-location__hour hour">
+                        <h3 class="hour__title">Working Hour</h3>
+                        <div class="hour__subtitle">Sunday to Saturday
+                           <p> 09:00 AM to 11:00 PM</p>
+                        </div>
+                     </div>
+                     <div class="info-location__location">
+                        Location
+                        <p>Street - 127, New York </p>
+                        <p> United States </p>
+                        <p> 546544</p>
+                     </div>
+                     <div class="info-location__contacts">
+                        Contact us
+                        <a href="tel:+123456789">+123456789</a>
+                        <a href="mailto:hey@yourdomain.com">hey@yourdomain.com</a>
+                     </div>
+                  </div>
+                  <div id="map" class="location__map">
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer class="footer">
+         <div class="footer__top">
+            <div class="footer__top__container">
+               <div class="footer__top__logo">
+                  <a href="#"><img src="img/header/logo.svg" alt="logo"></a>
+               </div>
+               <nav class="footer__top__links">
+                  <a href="index.html" class="footer__top__link">Home</a>
+                  <a href="menu.html" class="footer__top__link">Menu</a>
+                  <a href="abouts.html" class="footer__top__link">About us</a>
+                  <a href="story.html" class="footer__top__link">Our story</a>
+                  <a href="blog.html" class="footer__top__link">Blog</a>
+                  <a href="contacts.html" class="footer__top__link">Contact us</a>
+               </nav>
+            </div>
+         </div>
+         <div class="footer__bottom">
+            <div class="footer__bottom__container">
+               <div class="footer__bottom__items">
+                  <div class="footer__bottom-text">
+                     © 2021 Finsweet | All rights reserved.
+                  </div>
+                  <div class="footer__bottom-social">
+                     <a href="#"><img src="img/footer/face.svg" alt="face"></a>
+                     <a href="#"><img src="img/footer/twit.svg" alt="twit"></a>
+                     <a href="#"><img src="img/footer/inst.svg" alt="inst"></a>
+                     <a href="#"><img src="img/footer/lin.svg" alt="lin"></a>
+                  </div>
+                  <div class="footer__bottom-contacts">
+                     <a href="#">Contact Us <span></span></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+   <script src="js/script.js"></script>
+   <script async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAu84YX5CDee4igsae2W3xHBlvm4I9RnRQ&callback=initMap">
+      </script>
+   <script src="js/google__map.js"></script>
+</body>
+
+</html>
